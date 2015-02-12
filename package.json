@@ -1,0 +1,41 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "name": "sails-crud-permissions",
+  "version": "0.1.0",
+  "description": "A permission service using grant objects for CRUD permission on models. Can merge grants, validate them, and find out if the request permits the user based on given permission objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arryon/sails-crud-permissions"
+  },
+  "keywords": [
+    "Sails.JS",
+    "CRUD",
+    "permission",
+    "grant"
+  ],
+  "author": "Arryon Tijsma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arryon/sails-crud-permissions/issues"
+  },
+  "homepage": "https://github.com/arryon/sails-crud-permissions",
+  "dependencies": {
+    "lodash":"^3.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "mocha": "^2.1.0",
+    "grunt-mocha-test": "^0.12.7"
+  }
+}

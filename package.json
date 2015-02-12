@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/arryon/sails-crud-permissions",
   "dependencies": {
-    "lodash":"^3.0.0"
+    "lodash":"3.0.0"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

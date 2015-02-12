@@ -10,7 +10,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt mocha"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,6 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-watch": "~0.6.1",
     "mocha": "^2.1.0",
-    "grunt-mocha-test": "^0.12.7",
-    "sails": "^0.11.0"
+    "grunt-mocha-test": "^0.12.7"
   }
 }

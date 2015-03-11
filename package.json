@@ -3,7 +3,7 @@
     "node": ">= 0.10.0"
   },
   "name": "sails-crud-permissions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A permission service using grant objects for CRUD permission on models. Can merge grants, validate them, and find out if the request permits the user based on given permission objects",
   "main": "lib/index.js",
   "directories": {
@@ -36,6 +36,10 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-watch": "~0.6.1",
     "mocha": "^2.1.0",
+    "should": "^5.0.0",
+    "bcryptjs": "~2.1.0",
+    "sails":"~0.11.x",
+    "sails-mongo":"~0.10.x",
     "grunt-mocha-test": "^0.12.7"
   }
 }

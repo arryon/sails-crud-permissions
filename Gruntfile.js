@@ -24,16 +24,17 @@ module.exports = function(grunt) {
         src: 'Gruntfile.js'
       },
       lib_test: {
-        src: ['lib/**/*.js', 'test/**/*.spec.js']
+        src: ['lib/**/*.js', 'test/**/*.spec.js', '!test/helpers/sampleApp/node_modules/**/*.js']
       }
     },
     mochaTest: {
       test: {
         options: {
           reporter: 'spec',
-          timeout: 5000
+          timeout: 5000,
+          require: ['should']
         },
-        src: ['test/**/*.spec.js']
+        src: ['test/**/*.spec.js', '!test/helpers/sampleApp/node_modules/**/*.js']
       }
     },
     watch: {
